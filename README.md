@@ -30,3 +30,9 @@ One can rename the files, just pass proper options
     openssl genrsa -out server.key 2048
     openssl req -new -x509 -sha256 -key server.key -out server.pem -days 3650
     openssl req -new -x509 -sha256 -key server.key -out server.pem -days 3650
+
+### See Also
+
+* https://golang.org/pkg/crypto/tls/
+* https://gist.github.com/denji/12b3a568f092ab951456
+* http://www.linuxfromscratch.org/blfs/view/svn/postlfs/stunnel.html
